@@ -1,0 +1,12 @@
+[project]
+name = "build-an-ai-assistant-using-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-groq>=0.3.6",
+    "mcp>=1.12.3",
+    "mcp-use>=1.3.7",
+]
