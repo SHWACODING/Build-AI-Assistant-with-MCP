@@ -20,13 +20,13 @@ A simple chat application using MCP (Model Context Protocol) with built-in conve
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone <git@github.com:SHWACODING/Build-AI-Assistant-with-MCP.git>
    cd "Build An AI Assistant Using MCP"
    ```
 
 2. **Install dependencies**:
    ```bash
-   pip install -r requirements.txt
+   uv add -r requirements.txt
    ```
 
 3. **Set up environment variables**:
@@ -40,14 +40,13 @@ A simple chat application using MCP (Model Context Protocol) with built-in conve
 ### Running the Application
 
 ```bash
-python app.py
+uv run app.py
 ```
 
 ### Available Commands
 
-- `help` - Show available commands and tips
-- `clear` - Clear conversation history
 - `exit` or `quit` - End the conversation
+- `clear` - Clear conversation history
 
 ### Example Interactions
 
@@ -56,7 +55,6 @@ python app.py
 📋 Available Commands:
 - 'exit' or 'quit': End the conversation
 - 'clear': Clear conversation history
-- 'help': Show this help message
 
 💡 Tips:
 - Be specific with your requests
@@ -123,17 +121,8 @@ python app.py
 
 ### Getting Help
 
-- Use the `help` command in the chat
 - Check the error messages for specific guidance
 - Ensure all dependencies are properly installed
-
-## Testing
-
-Run the test script to verify functionality:
-
-```bash
-python test_app.py
-```
 
 ## License
 
